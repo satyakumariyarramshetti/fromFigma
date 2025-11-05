@@ -5,7 +5,7 @@ export default function TestimonialsSection() {
     <div className={styles.testimonialsBg}>
       <div className={styles.left}>
         <div className={styles.label}>TESTIMONIALS</div>
-        <div className={styles.title}>What Our Guests Say</div>
+        <div className={styles.newstitle}>What Our Guests Say</div>
         <div className={styles.subtitle}>
           Exceptional Experiences, Shared by Those Who’ve Lived Them.
         </div>

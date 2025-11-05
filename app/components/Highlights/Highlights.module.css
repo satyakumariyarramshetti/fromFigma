@@ -22,7 +22,7 @@
   color: #143F35;
   font-weight: 400;
   margin-bottom: 18px;
-  font-family: Cormorant Garamond;
+  font-family: 'Cormorant Garamond';
 }
 
 .title {
@@ -30,18 +30,18 @@
   font-weight: 400;
   color: #0A1F1A;
   margin-bottom: 14px;
-  font-family: Satoshi;
+  font-family: 'Satoshi';
 }
 
 .desc {
   font-size: 1.07rem;
-  font-family: Satoshi;
+  font-family: 'Satoshi';
   color: #0A1F1A;
   margin-bottom: 36px;
 }
 
 .tabs {
-  font-family: Satoshi;
+  font-family: 'Satoshi';
   color: #0A1F1A;
   width: 92vw;
   max-width: 1200px;

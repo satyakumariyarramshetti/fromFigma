@@ -22,22 +22,23 @@
   border-left: 2px solid #3c6352;
   padding-left: 12px;
   margin-bottom: 32px;
-  font-family: Cormorant Garamond;
+  font-family: 'Cormorant Garamond';
 }
 
-.title {
-  font-size: 2.6rem;
+.newstitle {
+  font-size: 2.5rem;
   color: #0A1F1A;
+  font-family: 'Satoshi';
   font-weight: 400;
   margin-bottom: 12px;
-  font-family: Satoshi;
+  font-family: 'Satoshi';
 }
 
 .subtitle {
   color: #0A1F1A;
   font-size: 1.01rem;
   margin-bottom: 34px;
-    font-family: Satoshi;
+    font-family: 'Satoshi';
 
 }
 
@@ -53,7 +54,7 @@
   box-shadow: 0 2px 6px #24362e22;
   cursor: pointer;
   margin-top: 18px;
-  font-family: Satoshi;
+  font-family: 'Satoshi';
 }
 
 .right {
@@ -100,18 +101,20 @@
 }
 
 .name {
-  color: #818181;
+  color: #0A1F1A;
+  font-family:'Satoshi';
   font-size: 1rem;
   margin-bottom: 1px;
 }
 
 .country {
-  color: #bdbdb1;
+  color: #0A1F1A;
+  font-family:'Satoshi';
   font-size: 0.95rem;
 }
 
 .cardBody {
-  color: #232923;
+  color: #0A1F1A;
   font-size: 0.7rem;
   margin-top: 7px;
   margin-bottom: 24px;
@@ -119,11 +122,13 @@
   min-height: 38px;
    overflow-wrap: break-word; /* prevent text from overflowing */
   word-break: break-word;    /* extra safety */
+  font-family:'Satoshi';
 }
 
 .cardDate {
-  color: #bebeb6;
-  font-size: 0.7rem;
+color: #0A1F1A;
+  font-family:'Satoshi';
+    font-size: 0.7rem;
   margin-left: 4px;
 }
 

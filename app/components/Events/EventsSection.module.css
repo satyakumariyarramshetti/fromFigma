@@ -11,7 +11,7 @@
 /* Left Header */
 .leftHeader {
   flex: 1;                     /* smaller portion */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "'Cormorant Garamond'", serif;
   font-weight: 400;
   font-size: 1.2rem;
   color: #143F35;
@@ -29,13 +29,13 @@
   text-align: left;            /* no extra spaces at line start */
   line-height: 1.5;
   gap: 1rem;                   /* spacing between heading and paragraph */
-  font-family: Satoshi;
+  font-family: 'Satoshi';
   color:#0A1F1A;
 }
 
 /* Heading */
 .rightContent h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "'Cormorant Garamond'", serif;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2;
@@ -45,7 +45,7 @@
 
 /* Paragraph */
 .rightContent p {
-  font-family: "Satoshi", sans-serif;
+  font-family: 'Satoshi', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: #0a1f1a;
