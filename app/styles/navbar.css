@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #f6f4e9;
+  border-bottom: 1px solid #ddd;
+  font-family: "Satoshi", sans-serif;
+}
+
+/* ---------- LOGO ---------- */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.12em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0A1F1A;
+}
+
+.logo-l {
+  font-size: 23px; /* adjusted to Figma */
+  color: #0A1F1A;
+  line-height: 1;
+  position: relative;
+  top: 1px; /* subtle vertical align */
+}
+
+.logo-rest {
+  color: #0A1F1A;
+  
+  font-style: italic;
+}
+
+/* ---------- GLOBE ---------- */
+.globe-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  filter: grayscale(100%) brightness(0);
+  color: #0A1F1A;
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
+}
+
+/* ---------- NAV CENTER LINKS ---------- */
+.nav-left a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: #0A1F1A;
+  transition: color 0.3s ease;
+}
+
+.nav-left a:hover {
+  color: #DA1F1A;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  white-space: nowrap;
+}
+
+.nav-right .lang,
+.nav-right .phone {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #0A1F1A;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+.nav-right .login {
+  color: #0A1F1A;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid #0A1F1A;
+  padding-bottom: 2px;
+  line-height: 100%;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-center {
+    margin-top: 0.5rem;
+  }
+
+  .nav-left a {
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .nav-right {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-right span {
+    font-size: 0.85rem;
+  }
+}

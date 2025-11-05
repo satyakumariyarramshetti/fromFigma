@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;               /* side by side layout */
+  align-items: flex-start;     /* align at top */
+  gap: 3rem;                   /* space between left and right */
+  padding: 5rem 3rem;
+  flex-wrap: wrap;             /* for responsive stacking */
+  background-color: #f6f4e9;
+  margin-bottom:250px;
+}
+
+/* Left Header */
+.leftHeader {
+  flex: 1;                     /* smaller portion */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #0a1f1a;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Right Content */
+.rightContent {
+  flex: 1;                     /* bigger portion */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;     /* aligns text flush at start */
+  text-align: left;            /* no extra spaces at line start */
+  line-height: 1.5;
+  gap: 1rem;                   /* spacing between heading and paragraph */
+}
+
+/* Heading */
+.rightContent h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #0a1f1a;
+  margin: 0;
+}
+
+/* Paragraph */
+.rightContent p {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #0a1f1a;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .leftHeader, .rightContent {
+    flex: 1 1 100%;
+    text-align: center;       /* optional for small screens */
+    align-items: center;
+  }
+
+  .rightContent h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,76 @@
+
+
+.gallery-section {
+  background-color: #f6f4e9;
+  padding: 2rem 0;
+  font-family: "Satoshi", sans-serif;
+  overflow: hidden;
+   padding: 1rem 0; /* 🔽 reduced vertical space */
+  margin-top: -320px; /* 🔽 pulls gallery closer to hero */
+}
+
+/* Image container */
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Each image */
+.gallery-image {
+  height: 268px;
+  flex-shrink: 0;
+}
+
+/* Image placeholders */
+.img1 {
+  width: 450px;
+  background-color: #c4c4c4;
+  margin-left: -150px; /* show only 1/4th from left */
+}
+
+.img2 {
+  width: 550px;
+  background-color: #c4c4c4;
+}
+
+.img3 {
+  width: 450px;
+  background-color: rgba(10, 31, 26, 0.4);
+}
+
+.img4 {
+  width: 600px;
+  background-color: rgba(10, 31, 26, 0.6);
+  margin-right: -150px; /* show only 1/4th from right */
+}
+
+/* Navigation bar */
+.gallery-navigation {
+  width: 500px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  text-transform: uppercase;
+  color: #0a1f1a;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  border-radius: 8px;
+  margin-left: 50px; /* ✅ Pushes it to the right side */
+}
+
+.gallery-index {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+
+
+

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Satoshi:wght@300;400&display=swap");
+
+/* ---------- LAYOUT ---------- */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Top aligned for realistic Figma spacing */
+  background-color: #f6f4e9;
+  padding: 8rem 5rem;
+  min-height: 90vh;
+  gap: 3rem;
+  flex-wrap: nowrap;
+}
+
+/* ---------- LEFT SIDE ---------- */
+.hero-left {
+  flex: 1 1 50%;
+}
+
+.welcome-text {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 1;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  color: #0a1f1a;
+  white-space: nowrap;
+}
+
+.luxort-text {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 1;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  color: #0a1f1a;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+.hero-right {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 10rem; /* small downward shift to align visually */
+}
+
+.hero-description {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -2%;
+  color: #0a1f1a;
+  max-width: 450px;
+  margin: 0 0 2rem 0;
+}
+
+/* ---------- BUTTONS ---------- */
+.hero-buttons {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap; /* ✅ prevents text breaking inside buttons */
+}
+
+.primary-btn,
+.secondary-btn {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 15px; /* ✅ slightly reduced for perfect 100% zoom fit */
+  letter-spacing: -0.5%;
+  text-transform: uppercase;
+  padding: 0.9rem 1.8rem; /* ✅ slightly narrower */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* ✅ text will never wrap */
+}
+.primary-btn {
+  background-color: #0a1f1a;
+  color: #f6f4e9;
+  border: none;
+}
+
+
+.secondary-btn {
+  background-color: transparent;
+  border: 1px solid #0a1f1a;
+  color: #0a1f1a;
+}
+
+.secondary-btn:hover {
+  background-color: #e9e8dc;
+}
+
+.primary-btn:hover {
+  background-color: #143f35;
+}
+
+.secondary-btn:hover {
+  background-color: #e9e8dc;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 992px) {
+  .hero-section {
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: 1 1 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome-text,
+  .luxort-text {
+    font-size: 72px;
+  }
+
+  .hero-description {
+    max-width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

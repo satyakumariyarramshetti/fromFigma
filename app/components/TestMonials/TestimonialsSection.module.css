@@ -1,0 +1,208 @@
+.testimonialsBg {
+  background: #f6f5e9;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ overflow-x: hidden;        /* prevent horizontal scroll */
+  box-sizing: border-box;    /* include padding in width */
+}
+
+.left {
+  min-width: 280px;          /* reduce min-width to avoid overflow on small screens */
+  padding-left: 53px;
+  padding-top: 210px;
+    box-sizing: border-box;    /* safe width */
+}
+
+.label {
+  color: #3c6352;
+  font-size: 1.07rem;
+  letter-spacing: 0.01em;
+  border-left: 2px solid #3c6352;
+  padding-left: 12px;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 2.6rem;
+  color: #232923;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #50554b;
+  font-size: 1.01rem;
+  margin-bottom: 34px;
+}
+
+.button {
+  background: #325d4a;
+  color: #fff;
+  font-size: 1.03rem;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 36px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 6px #24362e22;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive columns */
+  grid-auto-rows: auto;      /* height adapts to content */
+  grid-auto-rows: 150px;
+  gap: 18px 38px;
+  max-width: 810px;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 22px 24px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;              /* ensures content wraps inside card */
+    box-sizing: border-box;
+  box-shadow: 0 2px 8px #00000007;
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #dadace;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.name {
+  color: #818181;
+  font-size: 1rem;
+  margin-bottom: 1px;
+}
+
+.country {
+  color: #bdbdb1;
+  font-size: 0.95rem;
+}
+
+.cardBody {
+  color: #232923;
+  font-size: 1.01rem;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  min-height: 38px;
+   overflow-wrap: break-word; /* prevent text from overflowing */
+  word-break: break-word;    /* extra safety */
+}
+
+.cardDate {
+  color: #bebeb6;
+  font-size: 0.96rem;
+  margin-left: 4px;
+}
+
+
+.bg {
+  background: #606d69;
+  width: 100%;               /* full width of parent */
+  min-height: 540px;         /* safer than fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;    /* include padding in width */
+  padding: 2rem;             /* optional padding to avoid overflow */
+  overflow-x: hidden;        /* prevent horizontal scroll */
+}
+
+.centerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;               /* full width of parent */
+  max-width: 700px;          /* limits width on large screens */
+  box-sizing: border-box;    /* includes padding in width */
+  padding: 0 1rem;           /* small side padding for mobile */
+}
+
+.title {
+  color: #f6f5e9;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 42px;
+  line-height: 1.1;
+}
+
+.input {
+  width: 100%;               /* fill parent width */
+  max-width: 430px;          /* cap width for large screens */
+  height: 50px;
+  border-radius: 6px;
+  padding: 0 18px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1.18rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;               /* fill parent width */
+  max-width: 430px;          /* cap width for large screens */
+  height: 50px;
+  background: #27453c;
+  color: #f6f5e9;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.13rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  box-shadow: 0 1.5px 7px #23362f38;
+  transition: background 0.15s;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background: #1e3831;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;         /* smaller text on mobile */
+  }
+
+  .input, .button {
+    max-width: 100%;         /* use full width on small screens */
+  }
+
+  .centerBox {
+    width: 100%;
+    padding: 0 1rem;         /* small padding for sides */
+  }
+}
