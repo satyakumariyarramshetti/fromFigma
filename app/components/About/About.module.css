@@ -13,11 +13,12 @@
 .aboutTitle {
   font-size: 1.1rem;
   letter-spacing: 0.03em;
-  color: #3c6352;
+  color: #143F35;
   font-weight: 400;
   border-left: 2px solid #3c6352;
   padding-left: 14px;
   margin-bottom: 60px;
+  font-family: Cormorant Garamond;
 }
 
 .quoteSection {
@@ -26,9 +27,11 @@
 
 .quoteText {
   font-size: 1.5rem;
-  color: #232923;
+  color: #0A1F1A;
   font-weight: 300;
   margin-bottom: 36px;
+  font-family: Satoshi;
+
 }
 
 .founderSection {
@@ -45,13 +48,17 @@
 }
 
 .founderName {
-  color: #232923;
+  color: #0A1F1A;
   font-weight: 400;
+    font-family: Satoshi;
+
 }
 
 .founderRole {
   font-size: 0.98rem;
-  color: #96968c;
+  color: #0A1F1A;
+    font-family: Satoshi;
+
 }
 
 .content {
@@ -62,14 +69,16 @@
 .heading {
   font-size: 2.2rem;
   font-weight: 300;
-  color: #232923;
+  color: #0A1F1A;
   margin-bottom: 28px;
+  font-family: Satoshi;
 }
 
 .description {
-  color: #50554b;
+  color: #0A1F1A;
   font-size: 1.05rem;
   margin-bottom: 32px;
+  font-family: Satoshi;
 }
 
 .gallery {
@@ -100,14 +109,16 @@
   border-radius: 0 0 6px 6px;
   padding: 26px 32px;
   font-size: 1.11rem;
-  color: #2a322a;
+  color: #0A1F1A;
   gap: 20px;
   width: 440px;
+  font-family: Satoshi;
 }
 
 .cardIndex {
-  color: #707c6d;
+  color: #0A1F1A;
   font-size: 1rem;
+  font-family:Satoshi;
   margin-right: 8px;
 }
 

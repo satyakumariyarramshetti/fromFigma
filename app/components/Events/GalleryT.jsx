@@ -12,7 +12,7 @@ export default function GalleryT() {
 
       <div className="gallery-navigation">
         <div className="gallery-left">
-          <span className="gallery-index">01</span> WEDDING
+          <span className="gallery-index">01</span> WEDDINGS
         </div>
         <div className="gallery-right">NEXT →</div>
       </div>

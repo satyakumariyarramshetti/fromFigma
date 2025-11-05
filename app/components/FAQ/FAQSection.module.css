@@ -15,18 +15,20 @@
 
 .faqLabel {
   font-size: 1.1rem;
-  color: #3c6352;
+  color: #143F35;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
   margin-top: 18px;
+  font-family: Cormorant Garamond;
 }
 
 .faqTitle {
   font-size: 2.7rem;
   font-weight: 400;
-  color: #232923;
+  color: #0A1F1A;
   margin-bottom: 55px;
   letter-spacing: 0.02em;
+  font-family: Satoshi;
 }
 
 .faqBox {
@@ -59,17 +61,22 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.32rem;
-  color: #232923;
+  color: #0A1F1A;
   font-weight: 400;
   letter-spacing: 0.01em;
+    font-family: Satoshi;
+
+
 }
 
 .answer {
   margin-top: 8px;
-  color: #50554b;
   font-size: 1.03rem;
   font-weight: 400;
   line-height: 1.38;
+    color: #0A1F1A;
+    font-family: Satoshi;
+
 }
 
 .arrow {

@@ -16,30 +16,34 @@
 }
 
 .label {
-  color: #3c6352;
+  color: #143F35;
   font-size: 1.07rem;
   letter-spacing: 0.01em;
   border-left: 2px solid #3c6352;
   padding-left: 12px;
   margin-bottom: 32px;
+  font-family: Cormorant Garamond;
 }
 
 .title {
   font-size: 2.6rem;
-  color: #232923;
+  color: #0A1F1A;
   font-weight: 400;
   margin-bottom: 12px;
+  font-family: Satoshi;
 }
 
 .subtitle {
-  color: #50554b;
+  color: #0A1F1A;
   font-size: 1.01rem;
   margin-bottom: 34px;
+    font-family: Satoshi;
+
 }
 
 .button {
   background: #325d4a;
-  color: #fff;
+  color: #F6F4E9;
   font-size: 1.03rem;
   border-radius: 6px;
   border: none;
@@ -49,6 +53,7 @@
   box-shadow: 0 2px 6px #24362e22;
   cursor: pointer;
   margin-top: 18px;
+  font-family: Satoshi;
 }
 
 .right {
@@ -61,9 +66,9 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive columns */
   grid-auto-rows: auto;      /* height adapts to content */
-  grid-auto-rows: 150px;
+  grid-auto-rows: 200px;
   gap: 18px 38px;
   max-width: 810px;
 }
@@ -71,7 +76,7 @@
 .card {
   background: #FFFFFF;
   border-radius: 8px;
-  padding: 22px 24px 16px 24px;
+  padding: 30px 26px 20px 25px;
   display: flex;
   flex-direction: column;
   min-width: 0;              /* ensures content wraps inside card */
@@ -107,10 +112,10 @@
 
 .cardBody {
   color: #232923;
-  font-size: 1.01rem;
+  font-size: 0.7rem;
   margin-top: 7px;
   margin-bottom: 24px;
-  font-weight: 400;
+  font-weight: 300;
   min-height: 38px;
    overflow-wrap: break-word; /* prevent text from overflowing */
   word-break: break-word;    /* extra safety */
@@ -118,7 +123,7 @@
 
 .cardDate {
   color: #bebeb6;
-  font-size: 0.96rem;
+  font-size: 0.7rem;
   margin-left: 4px;
 }
 

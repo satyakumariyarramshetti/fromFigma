@@ -19,25 +19,30 @@
 .subtitle {
   font-size: 1rem;
   letter-spacing: 0.04em;
-  color: #728672;
+  color: #143F35;
   font-weight: 400;
   margin-bottom: 18px;
+  font-family: Cormorant Garamond;
 }
 
 .title {
   font-size: 2.2rem;
   font-weight: 400;
-  color: #232923;
+  color: #0A1F1A;
   margin-bottom: 14px;
+  font-family: Satoshi;
 }
 
 .desc {
   font-size: 1.07rem;
-  color: #50554b;
+  font-family: Satoshi;
+  color: #0A1F1A;
   margin-bottom: 36px;
 }
 
 .tabs {
+  font-family: Satoshi;
+  color: #0A1F1A;
   width: 92vw;
   max-width: 1200px;
   display: flex;
@@ -70,7 +75,7 @@
   width: 92vw;
   max-width: 1200px;
   height: 420px;
-  background: #bababa;
+  background: #C4C4C4;
   border-radius: 7px;
   margin-bottom: 0;
 }

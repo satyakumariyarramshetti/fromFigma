@@ -7,7 +7,7 @@ export default function Highlights() {
         <div className={styles.subtitle}>HOTEL HIGHLIGHTS</div>
         <h1 className={styles.title}>Experience the Extraordinary</h1>
         <div className={styles.desc}>
-          Experience elegance and comfort in our Luxury Rooms &amp; Suites, where modern amenities and timeless design create the perfect retreat.
+          Experience elegance and comfort in our Luxury Rooms &amp; Suites, where modern<br/> amenities and timeless design create the perfect retreat.
         </div>
       </div>
       <div className={styles.tabs}>
